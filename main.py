@@ -66,7 +66,7 @@ class Revert(Comando):
     def ejecutar(self) -> None:
         print("Ejecutando reversión...")
 
-# TODO: Agregar agregado automático para todos los comandos
+# TODO: Agregar registro dinámico para todos los comandos
 _init = Init()
 _test = Test()
 _build = Build()
